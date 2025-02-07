@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Rose Day, Swathi!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            color: #e63946;
+            font-family: 'Pacifico', cursive;
+            font-size: 32px;
+            animation: bounce 2s infinite;
+        }
+        .rose {
+            font-size: 24px;
+            color: #e63946;
+            animation: bloom 2s infinite alternate;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        @keyframes bloom {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.2); }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Rose Day, Swathi! 🌹</h1>
+        <p class="rose">🌹🌹🌹🌹🌹🌹</p>
+        <p>Wishing you joy, success, and endless happiness. 
+        May your life be as beautiful and vibrant as these roses! 💖
+        You are the best person I have ever met be the way you are and I'll there by your side ☺️</p>
+        <p>Stay blessed and keep shining! ✨</p>
+        <p>My love for you won't die :)</p>
+    </div>
+</body>
+</html>
